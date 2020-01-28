@@ -1,0 +1,19 @@
+{
+  "currencyInputs" : {
+    "essence" : 1000
+  },
+  "input" : [
+    { "item" : "solariumstar", "count" : 50 },
+    { "item" : "battery", "count" : 3 },
+    { "item" : "siliconboard", "count" : 10},
+    { "item" : "stickofram", "count" : 20},
+    { "item" : "wire", "count" : 100},
+    { "item" : "teleportercore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "tesseractlens",
+    "count" : 1
+  },
+  "duration" : 10,
+  "groups" : [ "inventorstable3", "craftingstations", "all" ]
+}

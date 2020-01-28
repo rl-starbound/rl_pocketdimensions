@@ -1,0 +1,64 @@
+{
+  "objectName" : "tesseractlens",
+  "colonyTags" : ["science"],
+
+  "rarity" : "Legendary",
+  "description" : "This device opens a pocket dimension within the folds of the fabric of space-time.",
+  "shortdescription" : "^orange;Tesseract Lens^reset;",
+  "price" : 20000,
+  "printable" : false,
+
+  "apexDescription" : "A device that can create a pocket dimension within space-time. Fascinating.",
+  "avianDescription" : "This machine creates an empty world somewhere in the aether.",
+  "floranDescription" : "Sstrange new worldss need plantss.",
+  "glitchDescription" : "Impressed. This machine manipulates space-time itself.",
+  "humanDescription" : "Perhaps pocket dimensions could be used to shelter refugees from Earth.",
+  "hylotlDescription" : "The worlds created by this device seem perfect for those seeking quiet meditation.",
+  "novakidDescription" : "This here device can fold space-time. Let's take 'er for a ride.",
+
+  "category" : "teleporter",
+
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/scripted/pocketdimensions/tesseractlens/tesseractlensgui.config",
+
+  "inventoryIcon" : "tesseractlensicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "tesseractlens.png:<color>.<frame>", "fullbright" : true }, { "image" : "tesseractlenslit.png:<color>.<frame>" } ],
+      "imagePosition" : [-32, -32],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [0, -4], [1, -4], [2, -4], [3, -4] ]
+    },
+    {
+      "imageLayers" : [ { "image" : "tesseractlens.png:<color>.<frame>", "fullbright" : true }, { "image" : "tesseractlenslit.png:<color>.<frame>" } ],
+      "imagePosition" : [-32, -32],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-4, -4], [-3, -4], [-2, -4], [-1, -4] ]
+    }
+  ],
+
+  "animation" : "/objects/pocketdimensions/tesseractlens/tesseractlens.animation",
+  "animationParts" : {
+    "bg" : "tesseractlens.png",
+    "fg" : "tesseractlenslit.png"
+  },
+
+  "health" : 10,
+  "rooting" : true,
+
+  "scripts" : [ "/objects/pocketdimensions/tesseractlens/tesseractlens.lua" ],
+  "scriptDelta" : 20,
+
+  "inputNodes" : [ [-4, 3] ]
+}

@@ -1,0 +1,37 @@
+{
+  "id" : "pocketdimensions2",
+  "prerequisites" : [ "pocketdimensions1" ],
+  "title" : "^orange;Opening Doorways",
+  "text" : "The Ancients used massive gates to focus the energy required to fold space-time. I believe that modern teleporter tech can do the job more efficiently. ^green;Could you bring me a ^orange;Teleporter Core^reset;? They're sold downstairs.",
+  "completionText" : "Excellent! This Teleporter Core will be a key component of my design. I need only one more thing...",
+  "moneyRange" : [300, 300],
+  "rewards" : [
+    [ [ "manipulatormodule", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : {
+        "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
+        "title" : "Elliott"
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
+        "title" : "Elliott"
+      }
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Speak to ^orange;Elliott^reset; at the ^orange;Outpost^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "teleportercore",
+        "count" : 1,
+        "consume" : true
+      }
+    ]
+  }
+}

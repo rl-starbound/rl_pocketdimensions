@@ -1,0 +1,23 @@
+{
+  "id" : "pocketdimensions",
+  "title" : "Pocket Dimensions",
+  "description" : "Excerpts from Elliott's research notes.",
+  "icon" : "pocketdimensions.png",
+  "contentPages" : [
+    "After studying Ancient technology, I think I understand! The Ancients manipulated zero-point energy to carve out pockets of space isolated from our universe. Their vault doors are actually multi-dimensional lenses which can be focused to allow passage into these pocket dimensions. I think I know how to follow in their footsteps.
+
+Trial #211:
+
+Eureka! My Tesseract Lens is complete! It opened a portal to a strange ... construct ... outside of our universe.",
+    "This construct contains breathable air and gravity, but is otherwise totally empty. Imagine the possibilities of unlimited space! I've already moved some of my equipment into this world.
+
+Trial #219:
+
+Today was a bit of a setback. When I activated the Tesseract Lens, it displayed dimensional parameters encoded in the form of a long number. I thought nothing of it, and did not write it down. It turns out that was a mistake. After disassembling the lens",
+    "and moving it to the other side of my lab, when I re-assembled it, the dimensional parameters had changed. When I stepped through the portal, I found myself in a new empty world. My equipment was gone! I wonder if I'll ever find that first pocket dimension... From now on, I'm writing down that number!"
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

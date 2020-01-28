@@ -1,0 +1,24 @@
+[
+  {
+    "op" : "add",
+    "path" : "/pocketdimension",
+    "value" : {
+      "type" : "FloatingDungeon",
+      "dungeonWorld" : "pocketdimension",
+      "spawningEnabled" : false,
+      "beamUpRule" : "Anywhere",
+      "disableDeathDrops" : true,
+
+      "skyParameters" : {
+        "dayLength" : 1000,
+        "spaceLevel" : 3000,
+        "surfaceLevel" : 900,
+        "seed" : -5288806180628666923,
+        "skyType" : "barren"
+      },
+
+      "persistent" : true,
+      "useUniverseClock" : true
+    }
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "op" : "add",
+    "path" : "/pocketdimension",
+    "value" : {
+      "primaryDungeon" : "pocketdimension",
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [1050, 930],
+      "dungeonBaseHeight" : 930,
+      "dungeonSurfaceHeight" : 900,
+      "ambientLightLevel" : [32, 32, 32],
+      "biome" : "pocketdimension"
+    }
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "layers" : [
+    {
+      "kind" : "tile/pocketdimensionback",
+      "parallax" : 8,
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "repeatY" : true
+    }
+  ]
+}

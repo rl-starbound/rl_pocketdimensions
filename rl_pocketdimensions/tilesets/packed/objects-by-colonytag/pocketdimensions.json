@@ -1,0 +1,25 @@
+{
+  "margin" : 0,
+  "name" : "objects-by-colonytag/pocketdimensions",
+  "properties" :  {
+  },
+  "spacing" : 0,
+  "tilecount" : 1,
+  "tileheight" : 8,
+  "tileproperties" : {
+    "0" : {
+      "//description" : "It sure doesn't look like this could generate a shield.",
+      "//name" : "rl_shieldgenerator",
+      "//shortdescription" : "Simple Shield Generator",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-8",
+      "object" : "rl_shieldgenerator"
+    }
+  },
+  "tiles" : {
+    "0" : {
+      "image" : "../../../_tiled/packed/objects/rl_shieldgenerator.png"
+    }
+  },
+  "tilewidth" : 8
+}

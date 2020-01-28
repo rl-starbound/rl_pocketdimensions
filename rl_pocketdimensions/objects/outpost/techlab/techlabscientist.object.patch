@@ -1,0 +1,26 @@
+[
+  { "op" : "add",
+    "path" : "/offeredQuests/-",
+    "value" : "pocketdimensions1"
+  },
+  { "op" : "add",
+    "path" : "/offeredQuests/-",
+    "value" : "pocketdimensions2"
+  },
+  { "op" : "add",
+    "path" : "/offeredQuests/-",
+    "value" : "pocketdimensions3"
+  },
+  { "op" : "add",
+    "path" : "/turnInQuests/-",
+    "value" : "pocketdimensions1"
+  },
+  { "op" : "add",
+    "path" : "/turnInQuests/-",
+    "value" : "pocketdimensions2"
+  },
+  { "op" : "add",
+    "path" : "/turnInQuests/-",
+    "value" : "pocketdimensions3"
+  }
+]

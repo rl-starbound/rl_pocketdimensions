@@ -1,0 +1,90 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "teleporter" : {
+        "default" : "off",
+        "states" : {
+          "off" : {
+            "properties" : {
+              "lightsOff" : ["glow"]
+            }
+          },
+          "on" : {
+            "frames" : 3,
+            "cycle" : 0.8,
+            "mode" : "loop",
+            "properties" : {
+              "lightsOn" : ["glow"]
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "bg" : {
+        "properties" : {
+          "centered" : true,
+          "transformationGroups" : ["teleporter"]
+        },
+
+        "partStates" : {
+          "teleporter" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.off"
+              }
+            },
+
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.on.<frame>",
+                "fullbright" : true
+              }
+            }
+          }
+        }
+      },
+      "fg" : {
+        "properties" : {
+          "centered" : true,
+          "transformationGroups" : ["teleporter"],
+          "zLevel" : 1
+        },
+
+        "partStates" : {
+          "teleporter" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.off"
+              }
+            },
+
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.on.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "transformationGroups" : {
+    "teleporter" : {}
+  },
+
+  "lights" : {
+    "glow" : {
+      "position" : [0, -1],
+      "color" : [85, 67, 96],
+      "transformationGroups" : ["teleporter"]
+    }
+  },
+
+  "sounds" : {
+    "on" : [],
+    "off" : []
+  }
+}

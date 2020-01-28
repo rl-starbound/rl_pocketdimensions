@@ -1,0 +1,13 @@
+{
+  "name" : "pocketdimension",
+  "friendlyName" : "Pocket Dimension",
+
+  "parallax" : "/parallax/surface/pocketdimension.parallax",
+
+  "spawnProfile" : {
+    "groups" : [],
+    "monsterParameters" : {}
+  },
+
+  "hueShiftOptions" : [0]
+}
