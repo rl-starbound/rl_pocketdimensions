@@ -1,4 +1,4 @@
-# Pocket Dimensions
+# Starbound mod: Pocket Dimensions
 
 This mod adds advanced technology to the Starbound universe. After studying the technology of the Ancients, particularly the Ancient Vaults, Elliott, the Outpost's resident tech scientist, has an epiphany about the nature of space-time. With the player's help, he invents the *Tesseract Lens*, a device capable of creating and transporting you to pocket dimensions within the folds of the fabric of space-time. Constructing a Tesseract Lens consumes a hefty amount of high-level resources, but the reward is access to a nearly infinite amount of free space.
 
