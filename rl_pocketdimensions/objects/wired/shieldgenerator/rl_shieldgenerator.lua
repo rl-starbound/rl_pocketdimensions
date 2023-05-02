@@ -1,7 +1,7 @@
 require "/scripts/vec2.lua"
 
 function init()
-  self.dungeonId = config.getParameter("dungeonid", world.dungeonId(object.position()))
+  self.dungeonId = config.getParameter("dungeonid", world.dungeonId(entity.position()))
 
   object.setInteractive(config.getParameter("interactive", true) and not (object.inputNodeCount() > 0 and object.isInputNodeConnected(0)))
 
@@ -46,7 +46,7 @@ function die(smash)
     output(not storage.state)
   end
   if config.getParameter("explodeOnSmash") and smash then
-    world.spawnProjectile(config.getParameter("explosionProjectile"), vec2.add(object.position(), config.getParameter("explosionOffset", {0,0})), entity.id(), {0,0})
+    world.spawnProjectile(config.getParameter("explosionProjectile"), vec2.add(entity.position(), config.getParameter("explosionOffset", {0,0})), entity.id(), {0,0})
   end
 end
 
