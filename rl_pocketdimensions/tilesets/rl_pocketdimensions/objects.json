@@ -1,6 +1,6 @@
 {
   "margin" : 0,
-  "name" : "objects-by-colonytag/pocketdimensions",
+  "name" : "rl_pocketdimensions/objects",
   "properties" :  {
   },
   "spacing" : 0,
@@ -18,7 +18,7 @@
   },
   "tiles" : {
     "0" : {
-      "image" : "../../../_tiled/packed/objects/rl_shieldgenerator.png"
+      "image" : "../../_tiled/rl_pocketdimensions/objects/rl_shieldgenerator.png"
     }
   },
   "tilewidth" : 8
