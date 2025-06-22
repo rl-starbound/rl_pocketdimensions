@@ -7,7 +7,7 @@
       "dungeonWorld" : "pocketdimension",
       "spawningEnabled" : false,
       "beamUpRule" : "Anywhere",
-      "disableDeathDrops" : true,
+      "disableDeathDrops" : false,
 
       "skyParameters" : {
         "dayLength" : 1000,
