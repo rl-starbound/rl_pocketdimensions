@@ -2,6 +2,9 @@
   "author" : "rl.starbound",
   "description" : "This mod adds pocket dimensions to Starbound. It creates a new quest line given by Elliott the Outpost tech scientist after the Ruin is destroyed. The reward for completing this quest line is the craftable Tesseract Lens, an object that can create and transport you to empty spaces hidden within the folds of space-time.\n\nFind the source code at:\nhttps://github.com/rl-starbound/rl_pocketdimensions",
   "friendlyName" : "Pocket Dimensions",
+  "link" : "steam://url/CommunityFilePage/3506553628",
   "name" : "rl_pocketdimensions",
+  "steamContentId" : "3506553628",
+  "tags" : "Furniture and Objects|Planets and Environments",
   "version" : "1.2.1"
 }
