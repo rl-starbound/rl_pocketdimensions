@@ -4,7 +4,7 @@
   "properties" :  {
   },
   "spacing" : 0,
-  "tilecount" : 1,
+  "tilecount" : 2,
   "tileheight" : 8,
   "tileproperties" : {
     "0" : {
@@ -14,11 +14,22 @@
       "imagePositionX" : "-8",
       "imagePositionY" : "-8",
       "object" : "rl_shieldgenerator"
+    },
+    "1" : {
+      "//description" : "This device creates a pocket dimension within the folds of space-time.",
+      "//name" : "tesseractlens",
+      "//shortdescription" : "Tesseract Lens",
+      "imagePositionX" : "-32",
+      "imagePositionY" : "-32",
+      "object" : "tesseractlens"
     }
   },
   "tiles" : {
     "0" : {
       "image" : "../../_tiled/rl_pocketdimensions/objects/rl_shieldgenerator.png"
+    },
+    "1" : {
+      "image" : "../../_tiled/rl_pocketdimensions/objects/tesseractlens.png"
     }
   },
   "tilewidth" : 8

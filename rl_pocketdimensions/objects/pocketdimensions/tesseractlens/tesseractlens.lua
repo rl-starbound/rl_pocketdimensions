@@ -1,13 +1,13 @@
 function init()
   if storage.dimensionalParameter == nil then
-    -- a random number between 1 and 10^18-1
-    storage.dimensionalParameter = math.random(1, 999999999999999999)
+    local min = 1
+    local max = 999999999999999999 -- 10^18-1
+    storage.dimensionalParameter = math.min(max, math.max(min, math.floor(
+      config.getParameter("initialDimensionalParameter", math.random(min, max))
+    )))
   end
 
-  if storage.active == nil then
-    storage.active = false
-  end
-  updateActive()
+  onNodeConnectionChange()
 
   message.setHandler("getDimensionalParameter", function()
       return storage.dimensionalParameter
@@ -18,15 +18,21 @@ function init()
     end)
 end
 
-function update()
-  local active = true
+function onInputNodeChange(args)
+  -- When a switch object is broken, it will set its output to off and
+  -- the connection will change. If the latter arrives first, the object
+  -- will incorrectly shut itself off when the former arrives afterward.
+  -- Therefore, treat all node changes as connection changes.
+  onNodeConnectionChange(args)
+end
+
+function onNodeConnectionChange(args)
   if object.isInputNodeConnected(0) then
-    active = object.getInputNodeLevel(0)
+    storage.active = object.getInputNodeLevel(0)
+  else
+    storage.active = true
   end
-  if storage.active ~= active then
-    storage.active = active
-    updateActive()
-  end
+  updateActive()
 end
 
 function updateActive()
